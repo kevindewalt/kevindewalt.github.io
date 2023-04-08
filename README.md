@@ -94,9 +94,22 @@ Specifically, the proposed amendments would require the electronic filing, submi
 
 
 
-## Prompt: Tracing rules to policy documents
+### Tracing rules to policy documents
 
+*Question: Would it be helpful if we could automatically map rules or rule changes directly to the most relevant parts of our policies?*
 
+We promise you they will say, “of course”! Tracing rules to appropriate locations in polices is an extremely tedious process and inconsistencies between the two create risk. You should also expect your business customers to be extremely skeptical.
+
+In this example we trace a rule to appropriate policy sections using only the table of content of a  Written Supervisory Procedures policy document. In practice a technique called “semantic search” is required to connect rules to the most appropriate sections within every policy document, many of which contain hundreds of pages. 
+
+Developing a solution to automatically trace rules to policies takes several months of engineering work, but the efficiency and risk reduction is so valuable that many firms are developing custom solutions. In time every firm will need this capability to avoid regulatory scrutiny.
+
+#### Example
+In this example we ask the LLM to trace the contents of [FINRA Rule 3320(https://www.finra.org/rules-guidance/rulebooks/finra-rules/3220)] to the most appropriate sections of the Policies at a fictitious company called OrangeInvestors.
+
+![Image of SEC Rule](images/trace.png)
+
+#### Prompt
 ```
 Here are two documents. Rule: an excerpt from FINRA's rules. Policy: The table of contents of the employee guidelines at a fictitious company called OrangeInvestors. Identify the most relevant 3 sections of the Policy for the Rule.
 
