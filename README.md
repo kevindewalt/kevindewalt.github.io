@@ -14,13 +14,14 @@ Just contact [Russ Rands (LinkedIn)](https://www.linkedin.com/in/russrands/) at 
 Copy and paste these prompts directly into ChatGPT 4.0. You will get similar—not identical—results in the use cases we shared. Modify the prompts (a technique called prompt engineering) to get results more relevant for your business customers.
 
 ## Compliance, regulation, surveillance, and risk applications
-- [Prompt: Summarizing rules](#prompt-summarizing-rules)
-- [Prompt: Routing rule changes to the appropriate compliance function](#prompt-routing-rule-changes-to-the-appropriate-compliance-function)
-- [Prompt: Tracing rules to policy documents](#prompt-tracing-rules-to-policy-documents)
-- [Prompt: Detecting potential risk and policy loopholes from cryptocurrency transactions](#prompt-detecting-potential-risk-and-policy-loopholes-from-cryptocurrency-transactions)
-- [Prompt: Automatically generating draft reports and correspondence](#prompt-automatically-generating-draft-reports-and-correspondence)
-- [Prompt: Answering questions about policies](#prompt-answering-questions-about-policies)
-- [Prompt: Identifying people, places, organizations, and relationships in documents](#prompt-identifying-people-places-organizations-and-relationships-in-documents)
+- [Summarizing rules](#prompt-summarizing-rules)
+- [Routing rule changes to the appropriate compliance function](#prompt-routing-rule-changes-to-the-appropriate-compliance-function)
+- [Tracing rules to policy documents](#prompt-tracing-rules-to-policy-documents)
+- [Detecting potential risk and policy loopholes from cryptocurrency transactions](#prompt-detecting-potential-risk-and-policy-loopholes-from-cryptocurrency-transactions)
+- [Automatically generating draft reports and correspondence](#prompt-automatically-generating-draft-reports-and-correspondence)
+- [Answering questions about policies](#prompt-answering-questions-about-policies)
+- [Identifying people, places, organizations, and relationships in documents](#prompt-identifying-people-places-organizations-and-relationships-in-documents)
+
 
 
 
