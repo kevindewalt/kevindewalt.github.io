@@ -1,10 +1,6 @@
-Previously, financial services institutions faced challenges automating back-office business processes due to computers' inability to process unstructured data. This automation is now possible with large-language models (LLMs) such as OpenAI's GPT.
+LLMs like OpenAI's GPT now allow financial institutions to automate back-office business processes that were previously challenging due to computers' inability to process unstructured data. 
 
-But ... what can you actually do with these LLMs? This question isn't easy to answer because business customers and technologists use different language. Business customers only recognize opportunities when they see relevant examples based on their data.
-
-We created use case examples based on solutions we have deployed at the world's largest companies. These examples are generated using publicly available data and OpenAI's ChatGPT 4.0 model. We also provide the prompts so you can modify and run them yourself.
-
-Use these examples as conversation starters with your constituents.
+However, it's difficult to answer what can be done with LLMs because business customers and technologists use different language. To address this, we created use case examples based on solutions deployed at large companies, generated using publicly available data and OpenAI's ChatGPT 4.0 model. Use these examples as conversation starters.
 
 ## Want a demo? Questions? Ideas?
 Just contact [Russ Rands (LinkedIn)](https://www.linkedin.com/in/russrands/) at russ@prolego.com. We can demonstrate these capabilities over a call or add new use cases.
