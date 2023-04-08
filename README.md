@@ -25,8 +25,20 @@ Copy and paste these prompts directly into ChatGPT 4.0. You will get similar—n
 
 
 
-## Prompt: Summarizing rules
+## Summarizing rules
+*Question: Would you find it helpful if we could automatically summarize rules, proposed rules, or other large documents into a few concise sentences?*
 
+Regulators continuously release proposed and actual rule changes, and managing this constant stream of complex legal content can be overwhelming for compliance organizations. Rules often come with limited summary information, resulting in experts evaluating documents that turn out to be irrelevant to their business operations.
+
+LLMs can help summarize rules or proposed rules, enhancing compliance operational efficiency. Here's an example of condensing a proposed SEC rule into just a few sentences.
+
+**Example**
+Here is a summary of SEC proposed rule [Electronic Submission of Certain Material Under the Securities Exchange Act of 1934; Amendments Regarding the FOCUS Report(https://www.sec.gov/rules/proposed/2023/33-11176.pdf)].
+
+![Image of SEC Rule](images/sec_rule.png)
+
+**Prompt**
+```
 Read this proposed SEC rule and summarize it in 2 sentences: 
 
 
@@ -46,7 +58,7 @@ Under current rules, registrants are required to file or otherwise submit many E
 
 
 Specifically, the proposed amendments would require the electronic filing, submission, or posting of certain forms, filings, and other submissions that national securities exchanges, national securities associations, clearing agencies, broker-dealers, security-based swap dealers, and major security-based swap participants make with the Commission. The proposed amendments would also make certain amendments regarding the Financial and Operational Combined Uniform Single ("FOCUS") Report to harmonize it with other rules, make technical corrections, and provide clarifications. In addition, the proposed amendments would require withdrawal of notices filed in connection with an exception to counting certain dealing transactions toward determining whether a person is a security-based swap dealer in specified circumstances. 
-
+```
 
 
 
