@@ -1,10 +1,7 @@
-# Discover use cases for large-language models and generative AI 
-
 Previously, financial services institutions faced challenges automating back-office business processes due to computers' inability to process unstructured data. This automation is now possible with large-language models (LLMs) such as OpenAI's GPT.
 
 But ... what can you actually do with these LLMs? This question isn't easy to answer because business customers and technologists use different language. Business customers only recognize opportunities when they see relevant examples based on their data.
 
-## Use chatGPT to explain capabilties to business customers
 We created use case examples based on solutions we have deployed at the world's largest companies. These examples are generated using publicly available data and OpenAI's ChatGPT 4.0 model. We also provide the prompts so you can modify and run them yourself.
 
 Use these examples as conversation starters with your constituents.
@@ -16,6 +13,7 @@ Just contact [Russ Rands (LinkedIn)](https://www.linkedin.com/in/russrands/) at 
 
 Copy and paste these prompts directly into ChatGPT 4.0. You will get similar—not identical—results in the use cases we shared. Modify the prompts (a technique called prompt engineering) to get results more relevant for your business customers.
 
+## Compliance, regulation, surveillance, and risk applications
 - [Prompt: Summarizing rules](#prompt-summarizing-rules)
 - [Prompt: Routing rule changes to the appropriate compliance function](#prompt-routing-rule-changes-to-the-appropriate-compliance-function)
 - [Prompt: Tracing rules to policy documents](#prompt-tracing-rules-to-policy-documents)
