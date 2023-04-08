@@ -188,9 +188,18 @@ Table of Contents
 
 
 
-## Prompt: Detecting potential risk and policy loopholes from cryptocurrency transactions
+### Detecting potential risk and policy loopholes from cryptocurrency transactions
+*Question: Would it be useful to have AI automatically review and identify potential policy loopholes that could be exploited by bad actors?*
 
+This is fun exercise—and one that will likely spur conversations about the future of your firm’s risk program. You can use the LLMs to automatically identify potential loopholes in policies. In practice, the technology will be most useful for surfacing potential issues that require additional discussion.
 
+#### Example
+
+In this scenario, we asked the LLM to identify ways an employee could use cryptocurrency transactions to violate potential policies.
+
+![Image of SEC Rule](images/crypto.png)
+
+#### Prompt
 ```
 You are a compliance officer for OrangeInvestors, Inc. and an expert in cryptocurrency transactions. You are competing with other compliance officers to identify the most creative and complex way an unscrupulous employee could use complex cryptocurrency transactions to break your policies. Review this policy and suggest a scenario where an employee could violate rules on rebating commissions and offering personal loans to customers. Additionally, suggest specific cryptocurrency tokens, wallets, and exchanges that will make it most difficult for Compliance to detect the problem, and explain why it will be difficult
 
@@ -204,9 +213,23 @@ It is also against company policy for employees to deposit or withdraw funds or 
 
 
 
-## Prompt: Automatically generating draft reports and correspondence
+### Automatically generating draft reports and correspondence
 
 
+
+*Question: Would it be helpful to automatically draft correspondence such as memos, reports, and letters?*
+
+Generating and reviewing correspondence is a tedious, time-consuming task in LCRS functions. It also carries high-risk: an error or mistake in correspondence can expose the firm to litigation or other risks. Managers must often invest significant time reviewing correspondence of new employees to mitigate this risk.
+
+LLMs can generate draft correspondence if the models are trained on the firm’s specific products, services and past correspondence. The results would still require human review, but it can serve as a starting point.
+
+#### Example
+
+In this example a compliance officer generates a memo to the Chief Compliance Officer at a firm summarizing and SEC investigation: [Two Former Wells Fargo Employees Charged With Insider Trading in Advance of Research Reports Containing Ratings Changes](https://www.sec.gov/news/press-release/2014-221).
+
+![Image of SEC Rule](images/letter.png)
+
+#### Prompt
 ```
 You are the compliance officer for OrangeInvestors, Inc. Generate a draft memo for your Chief Compliance Officer summarizing this SEC case and describe why it is unlikely to happen at your firm. 
 —-------
@@ -229,9 +252,17 @@ The SEC's Enforcement Division alleges that after receiving Bolan's tips, Ruggie
 
 
 
-## Prompt: Answering questions about policies
+### Answering questions about policies
 
+Question: Do you find that employees don’t read policies? If so, would it be useful to create a chat interface so they could ask questions about what is and isn’t allowed?
 
+LLMs can do more than chat - they can provide answers to questions and give context. Here is an answer to questions about gifts and behaviors outside the company.
+
+#### Example
+
+![Image of SEC Rule](images/question.png)
+
+#### Prompt
 ```
 Review this policy and then answer these 2 questions from an employee:
 1. Do I have to report work I do for my church?
@@ -256,9 +287,20 @@ It is also against company policy for employees to deposit or withdraw funds or 
 
 
 
-## Prompt: Identifying people, places, organizations, and relationships in documents
+### Identifying people, places, organizations, and relationships in documents
+
+*Question: Would it be helpful to extract entities (people, places, organizations, etc.) and identify relationships across different documents?*
+
+Surveillance programs often need to track behavior and relationships across a number of different sources, what data scientists call entity extraction and relationship reconciliation. Here is an example of extracting names and relationships for importing into a graph database.
+
+#### Example
+
+This example is taken from this F-1 filing, https://secfilings.nasdaq.com/filingFrameset.asp?FilingID=16161094&View=html 
 
 
+![Image of SEC Rule](images/entity.png)
+
+#### Prompt
 ```
 Identify and extract 5 names, titles, organizations, and relationships in this text. Include Yee Cheong Lai. Organize it in a way that would be easy to import into a graph database using the following structure:
 
