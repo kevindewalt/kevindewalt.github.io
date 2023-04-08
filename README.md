@@ -56,7 +56,7 @@ Specifically, the proposed amendments would require the electronic filing, submi
 
 
 
-### Prompt: Routing rule changes to the appropriate compliance function
+### Routing rule changes to the appropriate compliance function
 *Question: We understand you receive many notifications about proposed rule changes, findings, interpretations, and other information from regulatory bodies that impact compliance and policies. Would it be helpful if we automatically identified the appropriate audience for these notices?*
 
 This example was created using a description of general compliance functions. You can make a more powerful example by modifying the prompts with the actual functions in your institution and use actual regulatory notices. 
