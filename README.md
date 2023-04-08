@@ -105,7 +105,7 @@ In this example we trace a rule to appropriate policy sections using only the ta
 Developing a solution to automatically trace rules to policies takes several months of engineering work, but the efficiency and risk reduction is so valuable that many firms are developing custom solutions. In time every firm will need this capability to avoid regulatory scrutiny.
 
 #### Example
-In this example we ask the LLM to trace the contents of [FINRA Rule 3320(https://www.finra.org/rules-guidance/rulebooks/finra-rules/3220)] to the most appropriate sections of the Policies at a fictitious company called OrangeInvestors.
+In this example we ask the LLM to trace the contents of [FINRA Rule 3320](https://www.finra.org/rules-guidance/rulebooks/finra-rules/3220) to the most appropriate sections of the Policies at a fictitious company called OrangeInvestors.
 
 ![Image of SEC Rule](images/trace.png)
 
