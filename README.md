@@ -1,8 +1,14 @@
 # Appendix: ChatGPT 4.0 Prompts
 
-Copy and paste these prompts directly into ChatGPT 4.0. You will get similar—not identical—results in the use cases we shared.
+Copy and paste these prompts directly into ChatGPT 4.0. You will get similar—not identical—results in the use cases we shared. Modify the prompts (a technique called prompt engineering) to get results more relevant for your business customers.
 
-Modify the prompts (a technique called prompt engineering) to get results more relevant for your business customers.
+- [Prompt: Summarizing rules](#Prompt:-Summarizing-rules)
+- [Prompt: Routing rule changes to the appropriate compliance function](#Prompt:-Routing-rule-changes-to-the-appropriate-compliance-function)
+- [Prompt: Tracing rules to policy documents](#Prompt:-Tracing-rules-to-policy-documents)
+- [Prompt: Detecting potential risk and policy loopholes from cryptocurrency transactions](#Prompt:-Detecting-potential-risk-and-policy-loopholes-from-cryptocurrency-transactions)
+- [Prompt: Automatically generating draft reports and correspondence](#Prompt:-Automatically-generating-draft-reports-and-correspondence)
+- [Prompt: Answering questions about policies](#Prompt:-Answering-questions-about-policies)
+- [Prompt: Identifying people, places, organizations, and relationships in documents](#Prompt:-Identifying-people,-places,-organizations,-and-relationships-in-documents)
 
 
 ## Prompt: Summarizing rules
