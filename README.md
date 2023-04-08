@@ -332,3 +332,4 @@ Hon Wai Ku, Independent Director Nominee, has over 23 years of professional expe
 Hung Leung "Alan" Tsang, Independent Director Nominee, holds an accounting degree from the City University of Hong Kong and is a certified public accountant. He has extensive experience in financial reporting and treasury management, working at Eastern Glory Financial and Investment Services Limited, Combine Will International Holdings Limited, and China Resources Enterprise Limited.
 
 Family Relationships: Ming Hung Lai (Chairman) and Ming Yan Lai (CEO) are cousins. Yau Fai Lai (Director) is their uncle, and the deceased founder, Yee Cheong Lai, is their grandfather.
+```
