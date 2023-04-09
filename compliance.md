@@ -6,7 +6,7 @@
 - [Automatically generating draft reports and correspondence](#automatically-generating-draft-reports-and-correspondence)
 - [Answering questions about policies](#answering-questions-about-policies)
 - [Identifying people, places, organizations, and relationships in documents](#identifying-people-places-organizations-and-relationships-in-documents)
-- [Designing and preventing risk scenarios or financial crimes](designing-and-preventing-risk-scenarios-or-financial-crimes)
+- [Designing and preventing risk scenarios or financial crimes](#designing-and-preventing-risk-scenarios-or-financial-crimes)
 
 
 ### Summarizing rules
