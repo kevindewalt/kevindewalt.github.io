@@ -1,16 +1,3 @@
-LLMs like OpenAI's GPT now allow financial institutions to automate back-office business processes that were previously challenging due to computers' inability to process unstructured data. 
-
-However, it's difficult to answer what can be done with LLMs because business customers and technologists use different language. To address this, we created use case examples based on solutions deployed at large companies, generated using publicly available data and OpenAI's ChatGPT 4.0 model. Use these examples as conversation starters.
-
-## Want a demo? Questions? Ideas?
-Just contact [Russ Rands (LinkedIn)](https://www.linkedin.com/in/russrands/) at russ@prolego.com. We can demonstrate these capabilities over a call or add new use cases.
-
-# Use cases and GPT prompts
-
-Copy and paste these prompts directly into ChatGPT 4.0. You will get similar—not identical—results in the use cases we shared. Modify the prompts (a technique called prompt engineering) to get results more relevant for your business customers.
-
-### [Compliance, regulation, surveillance, and risk applications](compliance.md)
-
 ## Compliance, regulation, surveillance, and risk applications
 - [Summarizing rules](#summarizing-rules)
 - [Routing rule changes to the appropriate compliance function](#routing-rule-changes-to-the-appropriate-compliance-function)
@@ -19,6 +6,7 @@ Copy and paste these prompts directly into ChatGPT 4.0. You will get similar—n
 - [Automatically generating draft reports and correspondence](#automatically-generating-draft-reports-and-correspondence)
 - [Answering questions about policies](#answering-questions-about-policies)
 - [Identifying people, places, organizations, and relationships in documents](#identifying-people-places-organizations-and-relationships-in-documents)
+- [Designing and preventing risk scenarios or financial crimes](designing-and-preventing-risk-scenarios-or-financial-crimes)
 
 
 ### Summarizing rules
@@ -334,4 +322,47 @@ Hon Wai Ku, Independent Director Nominee, has over 23 years of professional expe
 Hung Leung "Alan" Tsang, Independent Director Nominee, holds an accounting degree from the City University of Hong Kong and is a certified public accountant. He has extensive experience in financial reporting and treasury management, working at Eastern Glory Financial and Investment Services Limited, Combine Will International Holdings Limited, and China Resources Enterprise Limited.
 
 Family Relationships: Ming Hung Lai (Chairman) and Ming Yan Lai (CEO) are cousins. Yau Fai Lai (Director) is their uncle, and the deceased founder, Yee Cheong Lai, is their grandfather.
+```
+
+### Designing and preventing risk scenarios or financial crimes
+
+Here is an example of how a compliance officer at a bank could create scenarios based on actual crimes and update them for modern or firm-specific scenarios.
+
+#### Example 1
+
+In this instance, a compliance officer wants to design a crime similar to those revealed in the Panama Papers and create the policies and controls to prevent it.
+
+![Image of SEC Rule](images/pan_pap1.png)
+![Image of SEC Rule](images/pan_pap2.png)
+
+#### Prompt 1
+```
+You are a compliance officer at BiggyBank, one of the world’s biggest banks. You are in a competition with other compliance officers to design a modern scenario like the Panama Papers. BiggyBank will use the scenario to design internal controls to prevent or detect such a scenario from happening. Thus your scenario must have the following elements:
+1. At least 2 employees at BiggyBank must be collaborators
+2. It must use cryptocurrency. Use actual crypto projects such as Aave or Polkadot and specific coins such as AAVE and DOT.
+3. It must follow a similar chain of transactions as was done in the Panama Papers to avoid paying taxes on $10M.
+4. It must be complex and creative. You will not win the competition if you pick the same scenarios as other analysts.
+
+Do not write in full sentences. Instead start by listing the key entities involved and then list the transactions in order, creating new entities in the process. Explain the reasons for each transaction. Use this format:
+
+-----
+KEY ENTITIES
+Financial services company: “BiggyBank”, multinational bank
+BiggyBank employee: “Alice”, accountant
+Wealthy individual: “Johnny Bucks”, a business tycoon who wants to avoid paying taxes.
+Law firm: “DoWeCheatUm”
+
+TRANSACTIONS
+“Johnny Bucks” contacts “DoWeCheatUm” Firm via Signal. Reason: Secure and encrypted communication..
+“DoWeCheatUm” sets up a Seychelles shell company, "Company A" for “Johnny Bucks”. Reason: Hide ownership and facilitate money laundering.
+```
+
+#### Example 2
+Now you will outline the new controls and policies necessary to preven this scenario. 
+
+![Image of SEC Rule](images/pan_pap3.png)
+
+#### Prompt 2
+```
+Design the policy and controls at BiggyBank to prevent this scenario from happening or mitigate the repercussions. 
 ```
