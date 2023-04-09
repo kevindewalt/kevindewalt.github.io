@@ -3,6 +3,9 @@
 In this particular use case we are trying to determine if a programmer who doesn't know Assembly language could use ChatGPT to maintain an application. Here are examples based on some [Assembly code for reversing a string](https://www.geeksforgeeks.org/8086-program-to-reverse-a-string/#).
 
 - [Generating documentation](#generating-documentation)
+- [Modifying code](#modifying-code)
+- [Translate Assembly into Java](#translate-assembly-into-java)
+
 
 
 ### Generating documentation
